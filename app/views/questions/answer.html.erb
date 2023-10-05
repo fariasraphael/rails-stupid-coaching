@@ -1,0 +1,12 @@
+<div class="border-start border-dark-subtle border-5">
+<h2><%= params[:question].capitalize %></h2>
+<h2>–You</h2>
+</div>
+
+<div class="border-start border-dark-subtle border-5 bg-warning bg-opacity-10">
+<h2><%= @coach %> </h2>
+<h2>–Your coach</h2>
+</div>
+
+
+<%= link_to "Ask a new question", ask_path %>
